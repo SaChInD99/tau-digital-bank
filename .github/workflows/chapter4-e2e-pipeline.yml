@@ -2,6 +2,7 @@ name: e2e pipeline
 run-name: Build, Deploy, Test - from user @${{ github.actor }}
 
 on: 
+  push:
   workflow_dispatch:
 
 jobs: 
